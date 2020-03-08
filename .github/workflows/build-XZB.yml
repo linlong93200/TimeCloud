@@ -1,17 +1,17 @@
-name: Build MT7621-1
+name: Build XZB
 
 on: 
   release:
     types: [published]
-   push:
+  push:
      tags:
      - 'v*'
-     branches: 
-       - master
-  schedule:
-    - cron: 0 17 * * 4
-   watch:
-     types: [started]
+#    branches: 
+#      - master
+# schedule:
+#   - cron: 0 17 * * 4
+#  watch:
+#    types: [started]
 
 jobs:
   build:
