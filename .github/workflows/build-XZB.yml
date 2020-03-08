@@ -3,7 +3,7 @@ name: Build XZB
 on: 
   release:
     types: [published]
-# push:
+  push:
 #    tags:
 #    - 'v*'
 #    branches: 
